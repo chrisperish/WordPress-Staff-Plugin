@@ -1,0 +1,66 @@
+.staff-image img{
+    width:100px;
+    height:110px;
+    float: left;
+	margin-right: 20px;
+}
+
+.staff-image-org img{
+	margin-top: 5px;
+    width:100px;
+    height:110px;
+}
+.staff-box {
+    width: 600px;
+    background-color: #e6e6e6;
+    padding: 18px;
+    margin-bottom: 15px;
+    color: #002157;
+    font-size: inherit;
+    font-weight: inherit;
+    font-family: inherit;
+    font-style: inherit;
+    text-decoration: inherit;
+}
+.staff-upper {
+	display: table-cell;
+	vertical-align: middle;
+    height: 100px;
+    font-weight: bold;
+}
+.staff-upper div{
+	display: inline-block;
+}
+.staff-lower {
+    margin-top: 10px;
+}
+.input-medium{
+	width: 200px;
+	margin-left: 10px;
+}
+#msgNoResults{
+	visibility: hidden;
+}
+
+.org-chart-item{
+	padding-left: 5px !important;
+	padding-right: 5px !important;
+    padding-top: 0px !important;
+	padding-bottom: 0px !important;
+}
+.google-visualization-orgchart-node-medium {
+    vertical-align: top;
+}
+.google-visualization-orgchart-table{
+	zoom:100%;
+}
+table.google-visualization-orgchart-table{
+	border-collapse: initial !important;
+}
+/*Change this to modify org chart style*/
+.org-chart-box{
+    width: 150px;
+    margin: 0 auto;
+    color: rgb(255, 255, 255);
+    background: rgb(172, 170, 170);
+}
